@@ -8,6 +8,8 @@ Each grant has a scope, which is a single or group of servers that the grant app
 
 A reason has to be specified for each grant, either using your preset grant reasons, or a custom reason.
 
+# Tutorials
+
 ## Grant Menu
 
 The grant menu is where you create a grant to be applied to a player.
@@ -60,10 +62,10 @@ Permission: `core.command.granthistory`
 
 `<>` = Required `[]` = Optional
 
-Command                                               | Permission                  | Description
------------------------------------------------------ | --------------------------- | -----------------------------
-`/grant <player>`                                     | `core.command.grant`        | Opens the grant menu.
-`/grants <player>`                                    | `core.command.grants`       | Opens the grants menu.
-`/granthistory <player>`                              | `core.command.granthistory` | Opens the grant history menu.
-`/ogrant <player> <rank> <duration> <scope> <reason>` | Console Only                | Creates a grant for a player.
-`/rgrant <player> <rank> <reason>`                    | Console Only                | Removes grants for a player.
+Command                                                                                       | Permission                  | Description
+--------------------------------------------------------------------------------------------- | --------------------------- | -----------------------------
+`/grant <player>`                                                                             | `core.command.grant`        | ### Opens the grant menu.
+`/grants <player>`                                                                            | `core.command.grants`       | ### Opens the grants menu.
+`/granthistory <player>`                                                                      | `core.command.granthistory` | ### Opens the grant history menu.
+`/ogrant <player> <rank> <duration(perm = Permanent)> <scope(global = all servers)> <reason>` | Console Only                | ### Creates a grant for a player.
+`/rgrant <player> <rank> <reason>`                                                            | Console Only                | ### Removes grants for a player.
